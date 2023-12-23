@@ -1,4 +1,4 @@
-// Лаба2_Контрольное задание_2.cpp
+
 #include <iostream>
 #include <string>
 
@@ -10,10 +10,10 @@ int main()
     cout << "Введите номер СНИЛС полностью без раздедителей и специальных знаков: ";
     cin >> snils;
 
-    string  main = snils.substr(0, 9); //основная часть номера СНИЛС
-    string dop_num = snils.substr(9, 11); //дополнительная часть номера СНИЛС
+    string  main = snils.substr(0, 9); 
+    string dop_num = snils.substr(9, 11); 
 
-    int sum = 0; // переменная для подсчета контрольного числа
+    int sum = 0; 
 
     for (int i = 1; i < 9; i++)
     {
